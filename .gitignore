@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+.ipynb_checkpoints/
+
+# Databases (rebuilt from raw data or created at runtime)
+*.db
+*.sqlite3
+
+# Raw and intermediate data (download from PhysioNet)
+model/data_handling/training/
+model/saved_models/patient_data.pkl
+model/saved_models/all_patient_ids.pkl
+model/data_handling/sepsis.db
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
