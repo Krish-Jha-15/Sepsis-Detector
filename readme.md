@@ -185,8 +185,8 @@ Feature names in the request body must match the model's input columns. Any feat
 ### Installation
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+   git clone https://github.com/Krish-Jha-15/Sepsis-Detector.git
+   cd Sepsis-Detector
 
 python -m venv venv
 source venv/bin/activate       
